@@ -8,8 +8,8 @@ from twilio.rest import Client
 endpoint="https://api.openweathermap.org/data/2.5/forecast"
 # apiley="api key"
 parameters={
-    "lat":17.154289,
-    "lon":82.255257,
+    "lat":27.154289,
+    "lon":89.255257,
     "appid":apiley,
     "cnt":4
 
