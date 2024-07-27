@@ -17,13 +17,13 @@ if today_tupple in bday:
         content=letter.read()
         content=content.replace("NAME",birthday_person["name"])
 
-    my_email = "teluguaivideo@gmail.com"
-    my_password = "wizgfsubewcldguv"
+    # my_email = "mail goes here"
+    # my_password = "password"
     with smtplib.SMTP("smtp.gmail.com")as connection:
         connection.starttls()
         connection.login(user=my_email,password=my_password)
         connection.sendmail(from_addr=my_email,
-                            to_addrs="saivignesh0009@gmail.com",
+                            # to_addrs="to mail address",
                             msg=f"subject:HAPPY BIRTHDAY:) \n\n {content}"
                             )
 
